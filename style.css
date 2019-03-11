@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 50px 0;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+ul {
+    list-style: none;
+}
+
+.wrapper {
+    width: 1920px;
+    margin: auto ;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+header {
+    height: 160px;
+}
+.high {
+    height: 60px;
+    background-color: #000000;
+}
+.phone img{
+    margin-top:20px ;
+    margin-left: 60px;
+    width: 20px;
+    height: 20px;
+    background: white;
+}
+.number p {
+    color: white;
+    padding-left: 20px;
+    font-size: 18px;
+    padding-right: 30px;
+}
+.number {
+    display: inline-block;
+}
+.phone {
+    display: inline-block;
+}
+.line {
+    border-right: 1px solid gray;
+}
+.letter {
+    display: inline-block;
+    margin-left: 40px;
+
+}
+.letter img {
+    width: 20px;
+    height: 20px;
+    background: white;
+}
+.mail {
+    display: inline-block;
+    margin-left: 25px;
+}
+.mail p {
+    color: white;
+    font-size: 18px;
+}
+.connect {
+    margin-top: 20px;
+    margin-right: 40px;
+    display: inline-block;
+    float: right;
+}
+.connect ul li {
+    width: 20px;
+    height: 20px;
+    background: white;
+    float: right;
+    margin-right: 30px;
+}
+.connect ul li p {
+    background: black;
+    color: white;
+    font-size: 20px;
+}
+span {
+    color: #50bd83;
+}
+.title {
+    display: inline-block;
+}
+.title p {
+    font-size: 24px;
+    margin-left: 70px;
+    margin-top: 35px;
+}
+.menu {
+    display: inline-block;
+    margin-left: 415px;
+}
+.menu ul li{
+    display: inline-block;
+    padding-right:50px ;
+}
+.menu ul li a {
+    font-size: 16px;
+    color: black;
+}
+.menu ul li span {
+    color: #3cb878;
+}
+.right_icons {
+    display: inline-block;
+    margin-left: 350px;
+}
+.right_icons ul {
+}
+.right_icons ul li {
+    display: inline-block;
+    padding-right: 30px;
+
+}
+.right_icons img {
+    width: 20px;
+    height: 20px;
+}
