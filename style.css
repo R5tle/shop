@@ -15,7 +15,7 @@ ul {
     list-style: none;
 }
 
-.wrapper {
+.big_wrapper {
     width: 1920px;
     margin: auto ;
     box-sizing: border-box;
@@ -24,31 +24,45 @@ ul {
 header {
     height: 160px;
 }
+.wrapper {
+    width: 1780px;
+    margin: auto;
+}
 .high {
     height: 60px;
-    background-color: #000000;
+    background: #000000;
 }
 .phone img{
     margin-top:20px ;
-    margin-left: 60px;
     width: 20px;
     height: 20px;
     background: white;
 }
-.number p {
+.number a {
     color: white;
     padding-left: 20px;
     font-size: 18px;
     padding-right: 30px;
 }
+.number :hover {
+    opacity: 0.8;
+}
 .number {
     display: inline-block;
+    position: relative;
+    bottom: 3px;
 }
-.phone {
+.phone{
     display: inline-block;
+}
+.phone:hover {
+    opacity: 0.8;
 }
 .line {
     border-right: 1px solid gray;
+}
+.letter :hover {
+    opacity: 0.8;
 }
 .letter {
     display: inline-block;
@@ -60,17 +74,21 @@ header {
     height: 20px;
     background: white;
 }
+.mail :hover {
+    opacity: 0.8;
+}
 .mail {
     display: inline-block;
     margin-left: 25px;
+    position: relative;
+    bottom: 3px;
 }
-.mail p {
+.mail a {
     color: white;
     font-size: 18px;
 }
 .connect {
     margin-top: 20px;
-    margin-right: 40px;
     display: inline-block;
     float: right;
 }
@@ -79,31 +97,38 @@ header {
     height: 20px;
     background: white;
     float: right;
-    margin-right: 30px;
+    margin-left: 30px;
+}
+.connect ul li :hover {
+    opacity: 0.8;
 }
 .connect ul li p {
     background: black;
     color: white;
     font-size: 20px;
 }
-span {
-    color: #50bd83;
-}
 .title {
     display: inline-block;
 }
-.title p {
+.title a {
+    color: black;
     font-size: 24px;
-    margin-left: 70px;
+    margin-left: 0px;
     margin-top: 35px;
+}
+.title  :hover {
+    color: #50bd83;
 }
 .menu {
     display: inline-block;
-    margin-left: 415px;
+    margin-left: 375px;
 }
 .menu ul li{
     display: inline-block;
     padding-right:50px ;
+}
+.menu ul li :hover{
+    color: #3cb878;
 }
 .menu ul li a {
     font-size: 16px;
@@ -113,17 +138,35 @@ span {
     color: #3cb878;
 }
 .right_icons {
+    margin-top: 40px;
     display: inline-block;
-    margin-left: 350px;
-}
-.right_icons ul {
+    float: right;
+    position: relative;
 }
 .right_icons ul li {
     display: inline-block;
-    padding-right: 30px;
-
+    padding-left: 30px;
 }
 .right_icons img {
     width: 20px;
     height: 20px;
+}
+.right_icons :hover {
+    opacity: 0.8;
+}
+.elipse {
+    display: inline-block;
+    position: relative;
+}
+.top {
+    position: absolute;
+    bottom: 17px;
+    left: 40px;
+    color: white;
+}
+.tip {
+    position: absolute;
+    bottom: 15px;
+    left: 46px;
+    color: white;
 }
