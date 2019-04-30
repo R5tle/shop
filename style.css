@@ -14,92 +14,82 @@ a {
 ul {
     list-style: none;
 }
-
-.big_wrapper {
-    width: 1920px;
-    margin: auto ;
-    box-sizing: border-box;
-    border: 1px solid black;
-}
-header {
-    height: 160px;
-}
 .wrapper {
     width: 1780px;
     margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
-.high {
-    height: 60px;
+.header_top {
     background: #000000;
 }
-.phone img{
-    margin-top:20px ;
+.header_top_contact_info img{
     width: 20px;
     height: 20px;
     background: white;
 }
-.number a {
+.number  {
     color: white;
     padding-left: 20px;
     font-size: 18px;
     padding-right: 30px;
 }
-.number :hover {
-    opacity: 0.8;
-}
 .number {
     display: inline-block;
+    align-items: center;
     position: relative;
-    bottom: 3px;
+    bottom: 2px;
 }
-.phone{
-    display: inline-block;
+.header_top_contact_info{
+    display:inline-block;
 }
-.phone:hover {
+.header_top_contact_info:hover {
     opacity: 0.8;
 }
 .line {
-    border-right: 1px solid gray;
+    display: inline-block;
+    border-left: solid 1px white;
+    height: 20px;
 }
-.letter :hover {
+.header_top_mail:hover {
     opacity: 0.8;
 }
-.letter {
+.header_top_mail {
     display: inline-block;
     margin-left: 40px;
-
 }
-.letter img {
+.header_top_mail img {
     width: 20px;
     height: 20px;
     background: white;
-}
-.mail :hover {
-    opacity: 0.8;
 }
 .mail {
     display: inline-block;
     margin-left: 25px;
     position: relative;
     bottom: 3px;
-}
-.mail a {
     color: white;
     font-size: 18px;
 }
 .connect {
-    margin-top: 20px;
-    display: inline-block;
     float: right;
+    display: inline-block;
 }
 .connect ul li {
     width: 20px;
     height: 20px;
-    background: white;
     float: right;
-    margin-left: 30px;
+    margin-right: 30px;
+    cursor: pointer;
 }
-.connect ul li :hover {
+.connect ul li i {
+    color: white;
+    font-size: 20px;
+}
+.connect ul li:nth-child(1){
+    margin-right: 0;
+}
+.connect ul li:hover {
     opacity: 0.8;
 }
 .connect ul li p {
@@ -113,10 +103,10 @@ header {
 .title a {
     color: black;
     font-size: 24px;
-    margin-left: 0px;
-    margin-top: 35px;
+    margin-left: 0;
+    margin-top: 15px;
 }
-.title  :hover {
+.title a:hover {
     color: #50bd83;
 }
 .menu {
@@ -127,7 +117,7 @@ header {
     display: inline-block;
     padding-right:50px ;
 }
-.menu ul li :hover{
+.menu ul li a:hover{
     color: #3cb878;
 }
 .menu ul li a {
@@ -138,7 +128,7 @@ header {
     color: #3cb878;
 }
 .right_icons {
-    margin-top: 40px;
+    margin-top: 20px;
     display: inline-block;
     float: right;
     position: relative;
@@ -151,7 +141,7 @@ header {
     width: 20px;
     height: 20px;
 }
-.right_icons :hover {
+.right_icons ul li:hover {
     opacity: 0.8;
 }
 .elipse {
